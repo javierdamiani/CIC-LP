@@ -41,7 +41,7 @@ function Form() {
             data.selectOption === "" ? "text-gray-400" : "text-black"
           }`}
         >
-          <option value="" disabled selected>
+          <option value="" disabled>
             ¿Eres estudiante o familiar?
           </option>
           <option value="estudiante">Estudiante</option>
@@ -131,7 +131,7 @@ function Form() {
             data.contactSelect === "" ? "text-gray-400" : "text-black"
           }`}
         >
-          <option value="" disabled selected>
+          <option value="" disabled>
             Medio de contacto
           </option>
           <option value="telefono">Telefono</option>

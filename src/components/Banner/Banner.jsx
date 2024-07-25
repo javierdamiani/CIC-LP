@@ -12,20 +12,18 @@ function Banner() {
           className="w-full max-w-44 sm:max-w-96 m-auto pt-5 "
         />
         <p className="text-white w-full px-16 py-8 m-auto">
-          <p>
-            En el Centro de Idiomas de la Universidad Continental, entendemos
-            que aprender un idioma va más allá de memorizar palabras. Se trata
-            de crear conexiones significativas y compartir experiencias. Nuestro
-            programa "Inglés para Escolares" en la modalidad presencial está
-            diseñado especialmente para que los estudiantes interactúen con sus
-            profesores y compañeros en un ambiente de apoyo y colaboración.
-          </p>
-          <p className="mt-5 font-bold">
-            ¡Inscribe a tu hijo hoy y bríndale la oportunidad de aprender inglés
-            en una institución de calidad y prestigio!
-          </p>
+          En el Centro de Idiomas de la Universidad Continental, entendemos que
+          aprender un idioma va más allá de memorizar palabras. Se trata de
+          crear conexiones significativas y compartir experiencias. Nuestro
+          programa "Inglés para Escolares" en la modalidad presencial está
+          diseñado especialmente para que los estudiantes interactúen con sus
+          profesores y compañeros en un ambiente de apoyo y colaboración.
         </p>
-        <button class="bg-white text-[#6400BE] w-44 ml-16 rounded-full px-4 py-2">
+        <p className="text-white w-full px-16 font-bold">
+          ¡Inscribe a tu hijo hoy y bríndale la oportunidad de aprender inglés
+          en una institución de calidad y prestigio!
+        </p>
+        <button className="bg-white text-[#6400BE] w-44 ml-16 rounded-full px-4 py-2 mt-6">
           Más información
         </button>
       </div>

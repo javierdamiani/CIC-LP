@@ -1,6 +1,6 @@
 import Form from "../Form/Form";
 import heroImg from "/hero-bg.svg";
-import heroGirl from "/hero-girl.svg";
+import heroGirl from "/chica.webp";
 
 function Hero() {
   const backgroundStyle = {
@@ -19,7 +19,7 @@ function Hero() {
         <img
           className="sm:h-auto pt-10 sm:mt-0 sm:ml-0"
           src={heroGirl}
-          alt=""
+          alt="Imagen de una joven sonriendo"
         />
         <div className="flex justify-center items-center sm:h-full">
           <Form />

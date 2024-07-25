@@ -1,5 +1,3 @@
-import Card from "./components/Card/Card";
-import conti from "/conti.svg";
 import Courses from "./components/Courses/Courses";
 import Hero from "./components/Hero/Hero";
 import Slider from "./components/Slider/Slider";

@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import compass from "/compass.svg";
 import people from "/people.svg";
 import conti from "/conti.svg";
@@ -113,13 +113,17 @@ function Carousel() {
           onClick={handlePrev}
           className="bottom-2 right-10 bg-gray-200 p-2 rounded-full"
         >
-          <img src={arrow} alt="" className="w-10 transform rotate-180" />
+          <img
+            src={arrow}
+            alt="Flecha hacia la izquierda"
+            className="w-10 transform rotate-180"
+          />
         </button>
         <button
           onClick={handleNext}
           className=" bottom-2 right-2 bg-gray-200 p-2 rounded-full"
         >
-          <img src={arrow} alt="" className="w-10" />
+          <img src={arrow} alt="Flecha hacia la derecha" className="w-10" />
         </button>
       </div>
     </div>
