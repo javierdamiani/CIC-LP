@@ -15,13 +15,15 @@ function Hero() {
       className="sm:h-[800px] overflow-hidden flex flex-col sm:flex-row"
       style={backgroundStyle}
     >
-      <div className="flex flex-col sm:flex-row items-center sm:items-start sm:space-x-5">
+      <div className="flex flex-col sm:flex-row items-center sm:items-start sm:space-x-5 sm:h-full m-auto">
         <img
-          className="sm:h-[440px] mt-5 sm:mt-0 sm:ml-0"
+          className="sm:h-auto pt-10 sm:mt-0 sm:ml-0"
           src={heroGirl}
           alt=""
         />
-        <Form />
+        <div className="flex justify-center items-center sm:h-full">
+          <Form />
+        </div>
       </div>
     </div>
   );
