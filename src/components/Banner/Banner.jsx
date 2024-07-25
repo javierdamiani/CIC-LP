@@ -10,6 +10,7 @@ function Banner() {
           src={clases}
           alt="Clases dinámicas"
           className="w-full max-w-44 sm:max-w-96 m-auto pt-5 "
+          loading="lazy"
         />
         <p className="text-white w-full px-16 py-8 m-auto">
           En el Centro de Idiomas de la Universidad Continental, entendemos que
@@ -28,7 +29,12 @@ function Banner() {
         </button>
       </div>
 
-      <img src={girl} alt="" className="mt-6 sm:mt-0 w-full sm:max-h-[640px]" />
+      <img
+        src={girl}
+        alt="Imagen de una niña con un libro en la mano viendo a la cámara y sonriendo"
+        className="mt-6 sm:mt-0 w-full sm:max-h-[640px]"
+        loading="lazy"
+      />
     </section>
   );
 }
